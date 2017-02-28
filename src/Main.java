@@ -1,3 +1,5 @@
+import java.demo.test1.TestUser;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,6 +8,8 @@ public class Main {
     }
     public static int[] arrayResove(int[] arr){
 
+
+        TestUser dbUser=TestUser.getInstance ();
         return arr;
     }
 }
